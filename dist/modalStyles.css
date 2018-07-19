@@ -1,0 +1,65 @@
+.buttonModal {
+font-family: 'trebuchet ms';
+  color: #3A94B0 !important;
+  font-size: 17px;
+  text-shadow: 1px 1px 0px rgb(41, 144, 204);
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 25px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 2px solid #3866A3;
+  background: #63B8EE;
+  background: linear-gradient(top,  rgb(91, 199, 226),  #40C5CF);
+  background: -ms-linear-gradient(top,  rgb(10, 153, 209),  #40C5CF);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(24, 231, 238)), to(#40C5CF));
+  background: -moz-linear-gradient(top,  #18EE7C,  #40C5CF);
+}
+
+.buttonModal:hover {
+    color: #14396A !important;
+    background: #468CCF;
+    background: linear-gradient(top,  #468CCF,  #63B8EE);
+    background: -ms-linear-gradient(top,  #468CCF,  #63B8EE);
+    background: -webkit-gradient(linear, left top, left bottom, from(#468CCF), to(#63B8EE));
+    background: -moz-linear-gradient(top,  #468CCF,  #63B8EE);
+}
+
+.buttonModal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+}
+.buttonModal > .content {
+    width: 100%; 
+    padding: 10px 5px; 
+}
+.buttonModal > .actions { 
+    width: 100%; 
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center; 
+}
+.buttonModal > .close {
+    cursor: pointer;
+    position: absolute; 
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px; 
+    font-size: 24px; 
+      background: #ffffff;
+    border-radius: 18px; 
+      border: 1px solid #cfcece; 
+} 
+
+.buttonCenter {
+    text-align: center;
+}
+
+h1{
+    text-align: left;
+}

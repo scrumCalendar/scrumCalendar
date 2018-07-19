@@ -11,18 +11,24 @@
   "author": "DYZ",
   "license": "ISC",
   "dependencies": {
+    "@babel/preset-env": "^7.0.0-beta.54",
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
     "date-fns": "^1.29.0",
+    "draft-js": "^0.10.5",
     "express": "^4.16.3",
+    "formik": "^1.0.1",
     "node": "^10.6.0",
     "nodemon": "^1.18.2",
     "path": "^0.12.7",
     "pg": "^7.4.3",
     "postgrest-client": "^1.1.2",
     "react-router": "^4.3.1",
+    "react-select": "^1.2.1",
+    "reactjs-popup": "^1.1.1",
     "sequelize": "^4.38.0",
-    "webpack-dev-server": "^3.1.4"
+    "webpack-dev-server": "^3.1.4",
+    "yup": "^0.25.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -35,10 +41,7 @@
     "webpack": "^4.16.1",
     "webpack-cli": "^3.0.8"
   },
-  "babel": {
-    "presets": [
-      "react",
-      "es2015"
-    ]
-  }
+  "presets": [
+    "@babel/preset-env"
+  ]
 }

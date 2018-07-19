@@ -11,14 +11,14 @@ const output = {
 };
 
 module.exports = {
-    mode: 'production',
-    performance: {hints: false},
+	mode: 'production',
+	performance: {hints: false},
 	entry, 
 	output,
 	devtool: 'eval-source-map',
-    module: {
-        rules: [
-            {
+	module: {
+		rules: [
+			{
 				test: /.(js|jsx)$/,
 				exclude: /node_modules/,
 				loader: 'babel-loader',
@@ -31,7 +31,7 @@ module.exports = {
 				test: /\.css$/,
 				use: [ 'style-loader', 'css-loader' ]
 			},
-        ]
-    }
+		]
+	}
 
-}
+};
